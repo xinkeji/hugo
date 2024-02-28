@@ -1,0 +1,58 @@
+name: ai定时更新
+
+on: 
+  workflow_dispatch:
+  
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  add-blog-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+            hugo-version: latest
+
+      - name: 查看带有子模块的 ecrivai-blog-hugo
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Checkout ecrivai
+        uses: actions/checkout@v3
+        with:
+          repository: g0fcn/aihugo-py
+          token: ${{ secrets.GH_TOKEN }}
+          path: ecrivai
+
+      - name: 设置并激活 conda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: ecrivai
+          environment-file: ecrivai/conda.yml
+          auto-activate-base: false
+
+      - name: 创建博客文章
+        env:
+            OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+            GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python ecrivai/ecrivai/add_blog.py --out-dir "content/posts/zh"
+
+      - name: 删除 ecrivai 存储库
+        run: rm -rf ecrivai
+
+      - name: 使用 Hugo 重建静态站点
+        run: hugo -d docs
+
+      - name: Commit and push changes to ecrivai-blog-hugo
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Auto add blog post
+          repository: .
