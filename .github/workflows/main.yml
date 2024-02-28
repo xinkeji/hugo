@@ -49,7 +49,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.personal_token }}
-          external_repository: eallion/blog
+          external_repository: xinkeji/blog
           publish_branch: main
           publish_dir: ./next
           # destination_dir: public
@@ -61,36 +61,36 @@ jobs:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
 
-      - name: Onionsite Pull Webhook
-        uses: jasongitmail/fast-webhook@v1
-        with:
-          url: ${{ secrets.ONION_WEBHOOK_URL }}
-          json: '{"onion": "pull"}'
+      # - name: Onionsite Pull Webhook
+      #   uses: jasongitmail/fast-webhook@v1
+      #   with:
+      #     url: ${{ secrets.ONION_WEBHOOK_URL }}
+      #     json: '{"onion": "pull"}'
 
-      - name: Algolia uploader
-        uses: wangchucheng/algolia-uploader@master
-        with:
-          app_id: ${{ secrets.ALGOLIA_APPID }}
-          admin_key: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          index_name: eallion
-          index_file_path: public/index.json
+      # - name: Algolia uploader
+      #   uses: wangchucheng/algolia-uploader@master
+      #   with:
+      #     app_id: ${{ secrets.ALGOLIA_APPID }}
+      #     admin_key: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+      #     index_name: eallion
+      #     index_file_path: public/index.json
 
-      - name: Algolia uploader English
-        uses: wangchucheng/algolia-uploader@master
-        with:
-          app_id: ${{ secrets.ALGOLIA_APPID }}
-          admin_key: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          index_name: "eallion_blog_en"
-          index_file_path: public/en/index.json
+      # - name: Algolia uploader English
+      #   uses: wangchucheng/algolia-uploader@master
+      #   with:
+      #     app_id: ${{ secrets.ALGOLIA_APPID }}
+      #     admin_key: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+      #     index_name: "eallion_blog_en"
+      #     index_file_path: public/en/index.json
 
-      - name: Deploy to Aliyun OSS
-        uses: fangbinwei/aliyun-oss-website-action@v1
-        with:
-          accessKeyId: ${{ secrets.ACCESS_KEY_ID }}
-          accessKeySecret: ${{ secrets.ACCESS_KEY_SECRET }}
-          bucket: eallion-com
-          endpoint: oss-cn-shanghai.aliyuncs.com
-          folder: public
+      # - name: Deploy to Aliyun OSS
+      #   uses: fangbinwei/aliyun-oss-website-action@v1
+      #   with:
+      #     accessKeyId: ${{ secrets.ACCESS_KEY_ID }}
+      #     accessKeySecret: ${{ secrets.ACCESS_KEY_SECRET }}
+      #     bucket: eallion-com
+      #     endpoint: oss-cn-shanghai.aliyuncs.com
+      #     folder: public
           # exclude: |
           #   tmp.txt
 
@@ -111,15 +111,15 @@ jobs:
       #     PATHS: "https://eallion.com/,https://www.eallion.com/"
       #     FLUSH_TYPE: "delete" # optional
 
-      - name: Install TencentCloud CLI
-        run: |
-          pip install tccli
+      # - name: Install TencentCloud CLI
+      #   run: |
+      #     pip install tccli
 
-      - name: Configure Tccli Credentials
-        run: |
-          tccli configure set secretId ${{ secrets.TENCENTCLOUD_TEO_SECRET_ID }}
-          tccli configure set secretKey ${{ secrets.TENCENTCLOUD_TEO_SECRET_KEY }}
+      # - name: Configure Tccli Credentials
+      #   run: |
+      #     tccli configure set secretId ${{ secrets.TENCENTCLOUD_TEO_SECRET_ID }}
+      #     tccli configure set secretKey ${{ secrets.TENCENTCLOUD_TEO_SECRET_KEY }}
 
-      - name: Create Tencent Cloud TEO Purge Task
-        run: |
-          tccli teo CreatePurgeTask --cli-unfold-argument --ZoneId ${{ secrets.TENCENTCLOUD_TEO_ZONEID }} --Type purge_prefix --Method invalidate --Targets 'https://www.eallion.com/'
+      # - name: Create Tencent Cloud TEO Purge Task
+      #   run: |
+      #     tccli teo CreatePurgeTask --cli-unfold-argument --ZoneId ${{ secrets.TENCENTCLOUD_TEO_ZONEID }} --Type purge_prefix --Method invalidate --Targets 'https://www.eallion.com/'
