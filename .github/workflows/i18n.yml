@@ -1,0 +1,42 @@
+name: ci
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Create docs directory
+        run: mkdir -p docs
+      - name: Change permissions
+        run: chmod 755 docs
+      - name: Auto-i18n_translate
+        env:
+          CHATGPT_API_KEY: ${{ secrets.CHATGPT_API_KEY }}
+          CHATGPT_API_BASE: ${{ secrets.CHATGPT_API_BASE }}
+        run: |
+          pip install -r requirements.txt
+          python auto-translater.py || true
+      - name: 使用 Hugo 重建静态站点
+        run: hugo -d docs
+
+      - name: Commit and push changes to ecrivai-blog-hugo
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Auto add blog post
+          repository: .
