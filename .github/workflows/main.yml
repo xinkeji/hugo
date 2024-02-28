@@ -49,7 +49,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.personal_token }}
-          external_repository: xinkeji/blog
+          external_repository: xinkeji/xinkeji.github.io
           publish_branch: main
           publish_dir: ./next
           # destination_dir: public
