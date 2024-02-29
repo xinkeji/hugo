@@ -23,6 +23,12 @@ jobs:
             ${{ runner.os }}-pip-
       - name: Change permissions
         run: chmod 755 content
+
+      - name: Create Translated Directories
+        run: |
+          mkdir -p content/posts/en
+          mkdir -p content/posts/es
+          mkdir -p content/posts/ar
           
       - name: Auto-i18n_translate
         env:
@@ -38,8 +44,8 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      - name: 提交新的博客文章
+      - name: 提交
         run: |
           git add .
           git commit -m "Add new posts via GitHub Actions" || echo "No new posts to commit."
-          git push origin main
+          git push 
