@@ -32,11 +32,19 @@ jobs:
         run: |
           pip install -r requirements.txt
           python auto-translater.py || true
-      - name: 使用 Hugo 重建静态站点
-        run: hugo -d docs
+      # - name: 使用 Hugo 重建静态站点
+      #   run: hugo -d docs
 
-      - name: Commit and push changes to ecrivai-blog-hugo
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Auto add blog post
-          repository: .
+      # - name: Commit and push changes to ecrivai-blog-hugo
+      #   uses: stefanzweifel/git-auto-commit-action@v4
+      #   with:
+      #     commit_message: Auto add blog post
+      #     repository: .
+
+      - name: 提交并推送更改
+        run: |
+          git config --global user.email "840263997@qq.com"
+          git config --global user.name "xinkeji"
+          git add .
+          git commit -m "Add new blog post"
+          git push
