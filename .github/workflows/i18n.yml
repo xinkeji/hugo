@@ -30,7 +30,7 @@ jobs:
           CHATGPT_API_BASE: ${{ secrets.CHATGPT_API_BASE }}
         run: |
           pip install -r requirements.txt
-          python auto-translater.py || true
+          python auto-translater.py --out-dir "content/posts || true
       - name: Commit translated
         run: |
           git config --global user.email "840263997@qq.com"
