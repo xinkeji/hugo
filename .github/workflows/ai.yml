@@ -1,4 +1,4 @@
-name: Build hugo site and publish
+name: aizhaiyao
 
 on:
   workflow_dispatch:
