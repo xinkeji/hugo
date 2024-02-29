@@ -14,11 +14,11 @@ openai.api_base = os.environ.get("CHATGPT_API_BASE")
 max_length = 1800
 
 # 设置翻译的路径
-dir_to_translate = "/to-translate"
+dir_to_translate = "/content/posts/zh"
 dir_translated = {
-    "en": "/docs/en",
-    "es": "/docs/es",
-    "ar": "/docs/ar"
+    "en": "/content/posts/en",
+    "es": "/content/posts/es",
+    "ar": "/content/posts/ar"
 }
 
 # 不进行翻译的文件列表
@@ -28,9 +28,9 @@ processed_list = "processed_list.txt"
 
 # 由 ChatGPT 翻译的提示
 tips_translated_by_chatgpt = {
-    "en": "\n\n> This post is translated using ChatGPT, please [**feedback**](https://github.com/linyuxuanlin/Wiki_MkDocs/issues/new) if any omissions.",
-    "es": "\n\n> Este post está traducido usando ChatGPT, por favor [**feedback**](https://github.com/linyuxuanlin/Wiki_MkDocs/issues/new) si hay alguna omisión.",
-    "ar": "\n\n> تمت ترجمة هذه المشاركة باستخدام ChatGPT، يرجى [**تزويدنا بتعليقاتكم**](https://github.com/linyuxuanlin/Wiki_MkDocs/issues/new) إذا كانت هناك أي حذف أو إهمال."
+    "en": "\n\n> This post is translated using ChatGPT, please [**feedback**](https://github.com/xinkeji/hugo/issues/new) if any omissions.",
+    "es": "\n\n> Este post está traducido usando ChatGPT, por favor [**feedback**](https://github.com/xinkeji/hugo/issues/new) si hay alguna omisión.",
+    "ar": "\n\n> تمت ترجمة هذه المشاركة باستخدام ChatGPT، يرجى [**تزويدنا بتعليقاتكم**](https://github.com/xinkeji/hugo/issues/new) إذا كانت هناك أي حذف أو إهمال."
 }
 
 # 文章使用英文撰写的提示，避免本身为英文的文章被重复翻译为英文
@@ -73,11 +73,11 @@ replace_rules = [
     },
     {
         # 文章中的站内链接，跳转为当前相同语言的网页
-        "orginal_text": "](https://wiki-power.com/",
+        "orginal_text": "](https://g0f.cn/",
         "replaced_text": {
-            "en": "](https://wiki-power.com/en/",
-            "es": "](https://wiki-power.com/es/",
-            "ar": "](https://wiki-power.com/ar/",
+            "en": "](https://g0f.cn/en/",
+            "es": "](https://g0f.cn/es/",
+            "ar": "](https://g0f.cn/ar/",
         }
     }
     # {
