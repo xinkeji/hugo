@@ -21,9 +21,6 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
-      - name: Change permissions
-        run: chmod 755 content
-    
           
       - name: Auto-i18n_translate
         env:
@@ -32,7 +29,7 @@ jobs:
           CHATGPT_API_BASE: ${{ secrets.CHATGPT_API_BASE }}
         run: |
           pip install -r requirements.txt
-          python auto-translater.py || true
+          sudo python auto-translater.py || true
           
       - name: 设置 Git 配置
         run: |
