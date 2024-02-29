@@ -48,11 +48,11 @@ jobs:
       - name: 删除 ecrivai 存储库
         run: rm -rf ecrivai
 
-      - name: 使用 Hugo 重建静态站点
-        run: hugo -d docs
+      # - name: 使用 Hugo 重建静态站点
+      #   run: hugo -d docs
 
-      - name: Commit and push changes to ecrivai-blog-hugo
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Auto add blog post
-          repository: .
+      # - name: Commit and push changes to ecrivai-blog-hugo
+      #   uses: stefanzweifel/git-auto-commit-action@v4
+      #   with:
+      #     commit_message: Auto add blog post
+      #     repository: .
