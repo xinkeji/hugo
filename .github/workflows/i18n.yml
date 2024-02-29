@@ -27,8 +27,8 @@ jobs:
       - name: Auto-i18n_translate
         env:
           # 设置环境变量
-          CHATGPT_API_KEY: ${{ secrets.CHATGPT_API_KEY }}
-          CHATGPT_API_BASE: ${{ secrets.CHATGPT_API_BASE }}
+          CHATGPT_API_KEY: https://api.nextchat.dev/api/proxy/openai
+          CHATGPT_API_BASE: sess-tp1V2wOCpKo3lGShV0NWjJana6F0rsc2Kc9QUmjv
         run: |
           sudo pip install -r requirements.txt
           sudo python auto-translater.py || true
