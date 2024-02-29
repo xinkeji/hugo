@@ -30,7 +30,7 @@ jobs:
           CHATGPT_API_KEY: ${{ secrets.CHATGPT_API_KEY }}
           CHATGPT_API_BASE: ${{ secrets.CHATGPT_API_BASE }}
         run: |
-          pip install -r requirements.txt
+          sudo pip install -r requirements.txt
           sudo python auto-translater.py || true
           
       - name: 设置 Git 配置
