@@ -1,4 +1,4 @@
-name: ci
+name: n18i
 on:
   push:
     branches:
