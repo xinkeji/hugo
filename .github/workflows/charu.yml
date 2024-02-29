@@ -20,4 +20,4 @@ jobs:
       run: cd scripts
 
     - name: Run summary.py
-      run: python summary.py
+      run: chmod +x scripts/summary.py
