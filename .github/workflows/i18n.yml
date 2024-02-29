@@ -33,8 +33,8 @@ jobs:
           python auto-translater.py || true
       - name: Commit translated
         run: |
-          git config --global user.840263997@qq.com
-          git config --global user.xinkeji
+          git config --global user.email "840263997@qq.com"
+          git config --global user.name "xinkeji"
           git add .
           git commit -m "Commit translated" || true
       - name: Push changes
