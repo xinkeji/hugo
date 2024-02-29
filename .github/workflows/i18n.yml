@@ -32,14 +32,15 @@ jobs:
           mkdir -p content/posts/ar
           
       - name: Auto-i18n_translate
+        run: pip install -r requirements.txt
+          
+      - name: Auto-i18n_translate
         env:
           # 设置环境变量
           CHATGPT_API_KEY: ${{ secrets.CHATGPT_API_KEY }}
           CHATGPT_API_BASE: ${{ secrets.CHATGPT_API_BASE }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          pip install -r requirements.txt
-          python auto-translater.py || true
+        run: python auto-translater.py || true
           
       - name: 设置 Git 配置
         run: |
