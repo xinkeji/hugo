@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
       - name: Change permissions
-        run: chmod 755 content
+        run: chmod 755 content/posts
       - name: Auto-i18n_translate
         env:
           # 设置环境变量
