@@ -23,11 +23,7 @@ jobs:
             ${{ runner.os }}-pip-
       - name: Change permissions
         run: chmod 755 content
-      - name: Debug
-        run: |
-          ls -l
-          pwd
-          ls -l content
+    
           
       - name: Auto-i18n_translate
         env:
@@ -36,18 +32,11 @@ jobs:
           CHATGPT_API_BASE: ${{ secrets.CHATGPT_API_BASE }}
         run: |
           pip install -r requirements.txt
-          python auto-translater.py --out-dir "content/posts" || true
-      - name: Commit translated
+          python auto-translater.py || true
+      - name: Commit and push changes
         run: |
-          git config --global user.email "840263997@qq.com"
-          git config --global user.name "xinkeji"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
           git add .
-          git commit -m "Commit translated" || true
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-      # - name: Install MkDocs dependencies
-      #   run: pip install -r requirements.txt
-      # - name: Deploy with MkDocs
-      #   run: mkdocs gh-deploy --force
+          git commit -m "Save file"
+          git push
