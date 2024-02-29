@@ -56,3 +56,10 @@ jobs:
       #   with:
       #     commit_message: Auto add blog post
       #     repository: .
+      - name: 提交并推送更改
+        run: |
+          git config --global user.email "840263997@qq.com"
+          git config --global user.name "xinkeji"
+          git add .
+          git commit -m "Add new blog post"
+          git push
