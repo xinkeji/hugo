@@ -1,4 +1,4 @@
-name: ci
+name: i18n
 on:
   push:
     branches:
@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
       - name: Change permissions
-        run: chmod 755 docs
+        run: chmod 755 content
       - name: Auto-i18n_translate
         env:
           # 设置环境变量
