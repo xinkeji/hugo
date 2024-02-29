@@ -26,7 +26,7 @@
         <div class="dummy-container">
             <div class="mt-timeline">
                 <div id="mt-body" class="mt-body" role="feed">
-                    {{- $mastodon_api := "https://e5n.cc/api/v1/accounts/111136231674527355/statuses?limit=20&exclude_replies=true&exclude_reblogs=true" -}}
+                    {{- $mastodon_api := "https://mastodon.social/api/v1/accounts/111984301562492486/statuses?limit=20&exclude_replies=true&exclude_reblogs=true" -}}
                     {{- $mastodon_local := "data/mastodon/mastodon.json" -}}
                     {{- with resources.GetRemote $mastodon_api }}
                         {{- with .Err }}
