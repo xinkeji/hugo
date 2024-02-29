@@ -1,19 +1,20 @@
 name: 插入摘要
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # 只有手动触发
 
 jobs:
-  build:
+  insert_summary:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.x'  # 选择你的 Python 版本
 
     - name: Run summary.py
       run: python scripts/summary.py
