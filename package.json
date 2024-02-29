@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eallion/eallion.com"
+    "url": "git+https://github.com/xinkeji/hugo"
   },
   "keywords": [
     "hugo",
@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/eallion/eallion.com/issues"
   },
-  "homepage": "https://github.com/eallion/eallion.com#readme",
+  "homepage": "https://github.com/xinkeji/hugo#readme",
   "dependencies": {
     "axios": "^1.6.5",
     "fs": "0.0.1-security",
