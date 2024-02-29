@@ -1,7 +1,7 @@
-name: 插入摘要
+name: Insert Summary into Posts
 
 on:
-  workflow_dispatch:  # 只有手动触发
+  workflow_dispatch
 
 jobs:
   insert_summary:
@@ -14,7 +14,10 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # 选择你的 Python 版本
+        python-version: '3.x'
+
+    - name: Change directory to scripts
+      run: cd scripts
 
     - name: Run summary.py
-      run: python scripts/summary.py
+      run: python summary.py
