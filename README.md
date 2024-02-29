@@ -8,17 +8,17 @@
 
 <div align="center">
 
-[![Build Hugo and Deploy](https://github.com/eallion/eallion.com/actions/workflows/main.yml/badge.svg)](https://github.com/eallion/eallion.com/actions/workflows/main.yml)
+[![Build Hugo and Deploy](https://github.com/xinkeji/hugo/actions/workflows/main.yml/badge.svg)](https://github.com/xinkeji/hugo/actions/workflows/main.yml)
 
 </div>
 
 <div align="center">
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Feallion%2Feallion.com.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Feallion%2Feallion.com?ref=badge_shield) ![GitHub repo size](https://img.shields.io/github/repo-size/eallion/eallion.com) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/eallion/eallion.com) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/eallion/eallion.com/v3.0.4/main) ![GitHub last commit](https://img.shields.io/github/last-commit/eallion/eallion.com) [![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/9pjg.svg)](https://betteruptime.com/?utm_source=status_badge)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Feallion%2Feallion.com.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Feallion%2Feallion.com?ref=badge_shield) ![GitHub repo size](https://img.shields.io/github/repo-size/xinkeji/hugo) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/xinkeji/hugo) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/xinkeji/hugo/v3.0.4/main) ![GitHub last commit](https://img.shields.io/github/last-commit/xinkeji/hugo) [![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/9pjg.svg)](https://betteruptime.com/?utm_source=status_badge)
 </div>
 <div align="center">
 
-[![GitHub issues](https://img.shields.io/github/issues/eallion/eallion.com?logo=GitHub&color=4ec100&style=flat)](https://github.com/eallion/eallion.com/issues/new) [![](https://img.shields.io/badge/eallions@gmail.com-4ec100?labelColor=555&logo=gmail&label=Gmail&link=mailto:eallions@gmail.com&logoColor=fff&style=flat)](mailto:eallions@gmail.com) [![](https://img.shields.io/badge/t.me-@eallion-4ec100?labelColor=555&logo=telegram&logoColor=fff&style=flat)](https://t.me/eallion)
+[![GitHub issues](https://img.shields.io/github/issues/xinkeji/hugo?logo=GitHub&color=4ec100&style=flat)](https://github.com/xinkeji/hugo/issues/new) [![](https://img.shields.io/badge/eallions@gmail.com-4ec100?labelColor=555&logo=gmail&label=Gmail&link=mailto:eallions@gmail.com&logoColor=fff&style=flat)](mailto:eallions@gmail.com) [![](https://img.shields.io/badge/t.me-@eallion-4ec100?labelColor=555&logo=telegram&logoColor=fff&style=flat)](https://t.me/eallion)
 </div>
 
 <div align="center">
@@ -36,12 +36,12 @@
 
 ### 📦️ 主仓库
 
-> <https://github.com/eallion/eallion.com>
+> <https://github.com/xinkeji/hugo>
 
 #### 备份仓库
 
-> <https://eallion@bitbucket.org/eallion/eallion.com>  
-> <https://gitlab.com/eallion/eallion.com>
+> <https://eallion@bitbucket.org/xinkeji/hugo>  
+> <https://gitlab.com/xinkeji/hugo>
 
 #### 添加备份仓库 Remote
 
@@ -49,14 +49,14 @@
 > Remote url 传递 id:token 免输各个 git 仓库的账号密码
 
 ```bash
-git remote set-url --add --push origin https://id:token@github.com/eallion/eallion.com.git
+git remote set-url --add --push origin https://id:token@github.com/xinkeji/hugo.git
 
 $ git remote -v
-origin  https://github.com/eallion/eallion.com (fetch)
-origin  https://github.com/eallion/eallion.com (push)
-origin  https://eallion@bitbucket.org/eallion/eallion.com.git (push)
-origin  https://gitlab.com/eallion/eallion.com.git (push)
-origin  https://git.eallion.com/git/eallion/eallion.com.git (push)
+origin  https://github.com/xinkeji/hugo (fetch)
+origin  https://github.com/xinkeji/hugo (push)
+origin  https://eallion@bitbucket.org/xinkeji/hugo.git (push)
+origin  https://gitlab.com/xinkeji/hugo.git (push)
+origin  https://git.eallion.com/git/xinkeji/hugo.git (push)
 ```
 
 #### 架构备忘
@@ -68,7 +68,7 @@ origin  https://git.eallion.com/git/eallion/eallion.com.git (push)
 
 > Update:2024.01.06
 
-- https://github.com/eallion/eallion.com/blob/main/.github/workflows/main.yml
+- https://github.com/xinkeji/hugo/blob/main/.github/workflows/main.yml
 
 ### 🎨 主题 [DoIt](https://github.com/HEIGE-PCloud/DoIt)
 
@@ -105,34 +105,34 @@ git submodule update --init --recursive
 https://github.com/GoogleChrome/developer.chrome.com
 ```
 
-- 自定义 CSS 在 [`assets/css/_custom.scss`](<https://github.com/eallion/eallion.com/blob/main/assets/css/_custom.scss>)：
+- 自定义 CSS 在 [`assets/css/_custom.scss`](<https://github.com/xinkeji/hugo/blob/main/assets/css/_custom.scss>)：
 
 ```bash
-https://github.com/eallion/eallion.com/blob/main/assets/css/_custom.scss
+https://github.com/xinkeji/hugo/blob/main/assets/css/_custom.scss
 ```
 
-- 自定义 JS 在 [`assets/js/custom.js`](https://github.com/eallion/eallion.com/blob/main/assets/js/custom.js)：
+- 自定义 JS 在 [`assets/js/custom.js`](https://github.com/xinkeji/hugo/blob/main/assets/js/custom.js)：
 
 ```bash
-https://github.com/eallion/eallion.com/blob/main/assets/js/custom.js
+https://github.com/xinkeji/hugo/blob/main/assets/js/custom.js
 ```
 
-- 自定义模板，如嘀咕、豆瓣等页面，在 [`layouts/_defaut`](https://github.com/eallion/eallion.com/tree/main/layouts/_default)：
+- 自定义模板，如嘀咕、豆瓣等页面，在 [`layouts/_defaut`](https://github.com/xinkeji/hugo/tree/main/layouts/_default)：
 
 ```bash
-https://github.com/eallion/eallion.com/tree/main/layouts/_default
+https://github.com/xinkeji/hugo/tree/main/layouts/_default
 ```
 
-- 作者数据在 [`data/authors`](https://github.com/eallion/eallion.com/tree/main/data/authors)：
+- 作者数据在 [`data/authors`](https://github.com/xinkeji/hugo/tree/main/data/authors)：
 
 ```bash
-https://github.com/eallion/eallion.com/tree/main/data/authors
+https://github.com/xinkeji/hugo/tree/main/data/authors
 ```
 
-- 观影数据在 [`data/neodb`](https://github.com/eallion/eallion.com/tree/main/data/neodb)：
+- 观影数据在 [`data/neodb`](https://github.com/xinkeji/hugo/tree/main/data/neodb)：
 
 ```bash
-https://github.com/eallion/eallion.com/tree/main/data/neodb
+https://github.com/xinkeji/hugo/tree/main/data/neodb
 ```
 
 ### 🔊 嘀咕页面

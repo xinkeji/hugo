@@ -72,7 +72,7 @@ The related code and services inherit the original project's license:
 
 * Hugo: [Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE)
 * Theme(DoIt): [MIT License](https://github.com/HEIGE-PCloud/DoIt/blob/main/LICENSE)
-* Source Code: [GLWT License](https://github.com/eallion/eallion.com/blob/main/LICENSE)
+* Source Code: [GLWT License](https://github.com/xinkeji/hugo/blob/main/LICENSE)
 
 ### Specifically
 

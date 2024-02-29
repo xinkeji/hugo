@@ -15,8 +15,8 @@ comment: false
 
 <img no-view src="/eallion.webp" alt="eallion">
 
-I'm [Charles Chin]^(大大的小蜗牛). [eallion]^(蜗牛) has been my nickname for over 20 years.
-AKA：大大的小蜗牛.
+I'm [Charles Chin]^(果粉圈). [eallion]^(蜗牛) has been my nickname for over 20 years.
+AKA：果粉圈.
 I live in the UTC+08:00 timezone and work from home.
 I work in E-commerce, not IT.
 
@@ -54,7 +54,7 @@ My favorite motto is:
 
 ### GitHub Open Source
 
-* [https://github.com/eallion/eallion.com](https://github.com/eallion/eallion.com)
+* [https://github.com/xinkeji/hugo](https://github.com/xinkeji/hugo)
 
 ### Sitemap
 
@@ -98,20 +98,20 @@ My favorite motto is:
 ### Status
 
 <div class="badge">
-  <a href="https://github.com/eallion/eallion.com/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/xinkeji/hugo/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
     <img no-view src="https://api.eallion.com/shields/badge/License-GLWT-green">
   </a>
-  <a href="https://github.com/eallion/eallion.com" target="_blank" rel="noopener noreferrer">
-    <img no-view src="https://api.eallion.com/shields/github/repo-size/eallion/eallion.com">
+  <a href="https://github.com/xinkeji/hugo" target="_blank" rel="noopener noreferrer">
+    <img no-view src="https://api.eallion.com/shields/github/repo-size/xinkeji/hugo">
   </a>
-  <a href="https://github.com/eallion/eallion.com/tags" target="_blank" rel="noopener noreferrer">
-    <img no-view src="https://api.eallion.com/shields/github/v/tag/eallion/eallion.com">
+  <a href="https://github.com/xinkeji/hugo/tags" target="_blank" rel="noopener noreferrer">
+    <img no-view src="https://api.eallion.com/shields/github/v/tag/xinkeji/hugo">
   </a>
-  <a href="https://github.com/eallion/eallion.com/tags" target="_blank" rel="noopener noreferrer">
-    <img no-view src="https://api.eallion.com/shields/github/commits-since/eallion/eallion.com/v3.0.4/main">
+  <a href="https://github.com/xinkeji/hugo/tags" target="_blank" rel="noopener noreferrer">
+    <img no-view src="https://api.eallion.com/shields/github/commits-since/xinkeji/hugo/v3.0.4/main">
   </a>
-  <a href="https://github.com/eallion/eallion.com/commits/main" target="_blank" rel="noopener noreferrer">
-    <img no-view src="https://api.eallion.com/shields/github/last-commit/eallion/eallion.com">
+  <a href="https://github.com/xinkeji/hugo/commits/main" target="_blank" rel="noopener noreferrer">
+    <img no-view src="https://api.eallion.com/shields/github/last-commit/xinkeji/hugo">
   </a>
 </div>
 

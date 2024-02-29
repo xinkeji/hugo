@@ -11,11 +11,11 @@
 # Any questions?
 
 - Issue:
-<https://github.com/eallion/eallion.com/issues/new>  
+<https://github.com/xinkeji/hugo/issues/new>  
 
 - Email:
 <eallions@gmail.com>
 
 # 写新文章
 >
-> [Create new file](https://github.com/eallion/eallion.com/tree/master/content/posts/)
+> [Create new file](https://github.com/xinkeji/hugo/tree/master/content/posts/)

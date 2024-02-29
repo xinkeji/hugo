@@ -1,6 +1,6 @@
 # website title
 # 网站标题
-title = "大大的小蜗牛"
+title = "果粉圈"
 # DoIt theme version
 # DoIt 主题版本
 version = "0.4.X"
@@ -9,7 +9,7 @@ version = "0.4.X"
 defaultTheme = "light"
 # public git repo url only then enableGitInfo is true
 # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-gitRepo = "https://github.com/eallion/eallion.com"
+gitRepo = "https://github.com/xinkeji/hugo"
 # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
 # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
 fingerprint = "sha256"
@@ -58,7 +58,7 @@ cacheRemoteImages = false
     logo = ""
     # title name
     # 标题名称
-    name = "大大的小蜗牛"
+    name = "果粉圈"
     # you can add extra information before the name (HTML format is supported), such as icons
     # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
     pre = ""
@@ -97,7 +97,7 @@ cacheRemoteImages = false
   # ICP info only in China (HTML format is supported)
   # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
   icp = '<a title="ICP 备案号" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备16031768号-2</a>'
-  # icp = '<i class="fas fa-balance-scale fa-fw"></i> <a title="ICP 备案号" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备16031768号-2</a> | <a title="RSS Feed" href="https://www.eallion.com/index.xml" target="_blank" rel="noopener noreferrer"><i class="fas fa-rss fa-fw"></i></a> <a title="GitHub 源码" href="https://github.com/eallion/eallion.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-code fa-fw"></i></a> <a title="Server Status" href="https://status.eallion.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-database fa-fw"></i></a> <a href="https://myssl.com/seal/detail?domain=eallion.com" title="本站支持SSL安全访问" target="_blank" rel="noopener noreferrer"><i class="fab fa-expeditedssl fa-fw"></i></a> <a href="https://ipw.cn/ipv6webcheck/?site=eallion.com" title="本站支持IPv6访问" target="_blank" rel="noopener noreferrer" class="icon-ipv6">IPv6</a> <a href="https://http3check.net/?host=eallion.com" title="本站支持 QUIC HTTP/3 访问" target="_blank" rel="noopener noreferrer" class="icon-ipv6">HTTP/3</a>'
+  # icp = '<i class="fas fa-balance-scale fa-fw"></i> <a title="ICP 备案号" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备16031768号-2</a> | <a title="RSS Feed" href="https://www.eallion.com/index.xml" target="_blank" rel="noopener noreferrer"><i class="fas fa-rss fa-fw"></i></a> <a title="GitHub 源码" href="https://github.com/xinkeji/hugo" target="_blank" rel="noopener noreferrer"><i class="fas fa-code fa-fw"></i></a> <a title="Server Status" href="https://status.eallion.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-database fa-fw"></i></a> <a href="https://myssl.com/seal/detail?domain=eallion.com" title="本站支持SSL安全访问" target="_blank" rel="noopener noreferrer"><i class="fab fa-expeditedssl fa-fw"></i></a> <a href="https://ipw.cn/ipv6webcheck/?site=eallion.com" title="本站支持IPv6访问" target="_blank" rel="noopener noreferrer" class="icon-ipv6">IPv6</a> <a href="https://http3check.net/?host=eallion.com" title="本站支持 QUIC HTTP/3 访问" target="_blank" rel="noopener noreferrer" class="icon-ipv6">HTTP/3</a>'
   # license info (HTML format is supported)
   # 许可协议信息 (支持 HTML 格式)
   # license= ""
@@ -165,7 +165,7 @@ cacheRemoteImages = false
   linkToMarkdown = true
   # configure the link to view source the post
   # 配置文章原始文件的链接
-  #linkToSource = "https://github.com/eallion/eallion.com/blob/main/content/{path}"
+  #linkToSource = "https://github.com/xinkeji/hugo/blob/main/content/{path}"
   # "https://github.com/user/repo/blob/main/{path}"
   # configure the link to edit the post
   # 配置编辑文章的链接
@@ -175,7 +175,7 @@ cacheRemoteImages = false
   # https://bitbucket.org/user/repo/src/main/{path}?mode=edit
   # configure the link to report issue for the post
   # 配置提交错误的链接
-  linkToReport = "https://github.com/eallion/eallion.com/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/eallion/eallion.com/blob/main/{path}|"
+  linkToReport = "https://github.com/xinkeji/hugo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/xinkeji/hugo/blob/main/{path}|"
   # https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
   # https://gitlab.com/user/repo/-/issues/new?issue[title]=[bug]%20{title}&issue[description]=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://gitlab.com/user/repo/-/edit/main/{path}|
   # whether to show the full text content in RSS

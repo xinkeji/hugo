@@ -21,11 +21,11 @@ comment: false
 
 ### 标题
 
-『大大的小蜗牛』
+『果粉圈』
 
 ### 说明
 
-大大的小蜗牛的个人博客。
+果粉圈的个人博客。
 
 ### 隐私条款
 
@@ -70,7 +70,7 @@ comment: false
 
 * Hugo： [Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE)
 * Theme(DoIt)： [MIT License](https://github.com/HEIGE-PCloud/DoIt/blob/main/LICENSE)
-* 本站源码： [GLWT License](https://github.com/eallion/eallion.com/blob/main/LICENSE)
+* 本站源码： [GLWT License](https://github.com/xinkeji/hugo/blob/main/LICENSE)
 
 ### 特别声明
 

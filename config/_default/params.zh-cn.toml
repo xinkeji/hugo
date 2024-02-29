@@ -3,13 +3,13 @@
 description = "机会总是垂青于有准备的人"
 # site keywords
 # 网站关键词
-keywords = ["eallion", "Charles", "chin", "blog", "Hugo", "蜗牛", "大大的小蜗牛", "博客", "网站"]
+keywords = ["eallion", "Charles", "chin", "blog", "Hugo", "蜗牛", "果粉圈", "博客", "网站"]
 # App icon config
 # 应用图标配置
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
   # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-  title = "大大的小蜗牛"
+  title = "果粉圈"
   # whether to omit favicon resource links
   # 是否隐藏网站图标资源链接
   noFavicon = false
@@ -84,7 +84,7 @@ keywords = ["eallion", "Charles", "chin", "blog", "Hugo", "蜗牛", "大大的�
     avatarLinkURL = "https://www.eallion.com/about/"
     # title shown in home page (HTML format is supported)
     # 主页显示的网站标题 (支持 HTML 格式)
-    title = "大大的小蜗牛的博客"
+    title = "果粉圈的博客"
     # subtitle shown in home page
     # 主页显示的网站副标题
     subtitle = "机会总是垂青于有准备的人"

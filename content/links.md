@@ -51,7 +51,7 @@ aliases:
 
 我的友链信息：
 
-> 标题：大大的小蜗牛  
+> 标题：果粉圈  
 > URL：[https://www.eallion.com](https://www.eallion.com)  
 > Avatar：[https://www.eallion.com/eallion.png](https://www.eallion.com/eallion.png)  
 > Gravatar：[https://gravatar.com/avatar/171e4c30959e8c077a6c58b958624b31](https://gravatar.com/avatar/171e4c30959e8c077a6c58b958624b31)  

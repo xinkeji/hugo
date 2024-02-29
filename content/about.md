@@ -15,7 +15,7 @@ comment: true
 
 <img no-view src="/eallion.webp" alt="eallion">
 
-我是「[蜗牛]^(eallion)」，不过一般都使用「大大的小蜗牛」作为网名。
+我是「[蜗牛]^(eallion)」，不过一般都使用「果粉圈」作为网名。
 本名没有什么内涵，略去不表。
 早年常居鲁迅故里，钟情于江南水乡。
 工作于电商之都。后为生计南下深港。
@@ -72,7 +72,7 @@ comment: true
 
 ### 本站源码
 
-* [https://github.com/eallion/eallion.com](https://github.com/eallion/eallion.com)
+* [https://github.com/xinkeji/hugo](https://github.com/xinkeji/hugo)
 
 ### Sitemap
 
@@ -116,20 +116,20 @@ comment: true
 ### 状态
 
 <div class="badge">
-  <a href="https://github.com/eallion/eallion.com/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/xinkeji/hugo/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
     <img no-view src="https://api.eallion.com/shields/badge/License-GLWT-green">
   </a>
-  <a href="https://github.com/eallion/eallion.com" target="_blank" rel="noopener noreferrer">
-    <img no-view src="https://api.eallion.com/shields/github/repo-size/eallion/eallion.com">
+  <a href="https://github.com/xinkeji/hugo" target="_blank" rel="noopener noreferrer">
+    <img no-view src="https://api.eallion.com/shields/github/repo-size/xinkeji/hugo">
   </a>
-  <a href="https://github.com/eallion/eallion.com/tags" target="_blank" rel="noopener noreferrer">
-    <img no-view src="https://api.eallion.com/shields/github/v/tag/eallion/eallion.com">
+  <a href="https://github.com/xinkeji/hugo/tags" target="_blank" rel="noopener noreferrer">
+    <img no-view src="https://api.eallion.com/shields/github/v/tag/xinkeji/hugo">
   </a>
-  <a href="https://github.com/eallion/eallion.com/tags" target="_blank" rel="noopener noreferrer">
-    <img no-view src="https://api.eallion.com/shields/github/commits-since/eallion/eallion.com/v3.0.4/main">
+  <a href="https://github.com/xinkeji/hugo/tags" target="_blank" rel="noopener noreferrer">
+    <img no-view src="https://api.eallion.com/shields/github/commits-since/xinkeji/hugo/v3.0.4/main">
   </a>
-  <a href="https://github.com/eallion/eallion.com/commits/main" target="_blank" rel="noopener noreferrer">
-    <img no-view src="https://api.eallion.com/shields/github/last-commit/eallion/eallion.com">
+  <a href="https://github.com/xinkeji/hugo/commits/main" target="_blank" rel="noopener noreferrer">
+    <img no-view src="https://api.eallion.com/shields/github/last-commit/xinkeji/hugo">
   </a>
 </div>
 
