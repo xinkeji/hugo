@@ -57,20 +57,20 @@ jobs:
         with:
           branch: ${{ github.head_ref }}
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
+      # - name: Setup Hugo
+      #   uses: peaceiris/actions-hugo@v2
+      #   with:
+      #     hugo-version: 'latest'
+      #     extended: true
 
-      - name: Build site 
-        run: hugo
+      # - name: Build site 
+      #   run: hugo
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: public
-          path: public/
+      # - name: Upload artifact
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: public
+      #     path: public/
 
   # cloudflare_deploy:
   #   needs: build
