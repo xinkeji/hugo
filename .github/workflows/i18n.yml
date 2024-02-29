@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
       - name: Change permissions
-        run: chmod 777 content
+        run: sudo chmod -R 777 /content
       
 
       - name: Create Translated Directories
@@ -31,7 +31,7 @@ jobs:
           mkdir -p content/posts/es
           mkdir -p content/posts/ar
           
-      - name: Auto-i18n_translate
+      - name: PIP
         run: pip install -r requirements.txt
           
       - name: Auto-i18n_translate
