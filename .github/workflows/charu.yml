@@ -21,4 +21,4 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run summary.py
-      run: python summary.py
+      run: python scripts/summary.py
