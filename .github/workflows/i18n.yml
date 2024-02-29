@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
       - name: Change permissions
-        run: chmod 755 /content
+        run: chmod 755 content
     
           
       - name: Auto-i18n_translate
@@ -33,10 +33,11 @@ jobs:
         run: |
           pip install -r requirements.txt
           python auto-translater.py || true
+          
       - name: Commit and push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add .
+          git add content
           git commit -m "Save file"
           git push
