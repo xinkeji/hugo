@@ -16,7 +16,7 @@ aliases:
 </div>
 
 <div class="friends links">
-{{< friend name="Charles Chin" bio="charleschin.com" url="https://charleschin.com" domain="charleschin.com" avatar="/eallion.webp" >}}
+{{< friend name="Charles Chin" bio="charleschin.com" url="https://charleschin.com" domain="charleschin.com" avatar="/logo.webp" >}}
 {{< friend name="Matrix67" bio="数学博客" url="http://www.matrix67.com" domain="matrix67.com" avatar="/404.png" >}}
 {{< friend name="羽中漫步" bio="羽中漫步" url="http://www.yzmb.me/" domain="yzmb.me" avatar="https://gravatar.eallion.com/avatar/ffa9ac42c56fd4776ccef37c57664965" >}}
 {{< friend name="怡红公子" bio="怡红公子的怡红院落" url="http://imnerd.org/" domain="imnerd.org" avatar="https://gravatar.eallion.com/avatar/a373282ace706850ed7edfab4161f9e4" >}}

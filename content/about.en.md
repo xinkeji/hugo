@@ -13,7 +13,7 @@ comment: false
     </blockquote>
 </div>
 
-<img no-view src="/eallion.webp" alt="eallion">
+<img no-view src="/logo.webp" alt="eallion">
 
 I'm [Charles Chin]^(果粉圈). [eallion]^(蜗牛) has been my nickname for over 20 years.
 AKA：果粉圈.
