@@ -1,6 +1,3 @@
 [submodule "themes/DoIt"]
 	path = themes/DoIt
 	url = https://github.com/eallion/hugo-theme-doit.git
-[submodule "ai-summary-hugo"]
-	path = ai-summary-hugo
-	url = https://github.com/Moraxyc/ai-summary-hugo
