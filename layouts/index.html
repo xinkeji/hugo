@@ -131,17 +131,16 @@
                         <p class="chr-copy chr-fifty-fifty-text-image-gm3__description">
 
 
-                            {{- $summary := getJSON "data/summary/summary.json" -}}
-                                                    {{- $matchingSummary := index (where $summary.summaries "slug" $currentSlug) 0 -}}
-                                                    {{- if $matchingSummary.summary -}}
-                                                        {{- $matchingSummary.summary -}}
-                                                    {{- else -}}
-                                                    {{- with .Summary -}}
-                                                        {{- dict "Content" . "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
-                                                    {{- else -}}
-                                                        {{- .Description | safeHTML -}}
-                                                    {{- end -}}
-                                                    {{- end -}}
+                            {{- $summary := $params.summary -}}
+                            {{- with $summary -}}
+                                {{ . | safeHTML }}
+                            {{- else -}}
+                                {{- with .Summary -}}
+                                    {{- dict "Content" . "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                                {{- else -}}
+                                    {{- .Description | safeHTML -}}
+                                {{- end -}}
+                            {{- end -}}
                         </p>
                         <div class="chr-fifty-fifty-text-image-gm3__tutorial-wrapper">
                             <button class="chr-cta__button chr-cta__button--blue">
