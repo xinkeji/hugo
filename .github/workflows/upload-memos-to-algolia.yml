@@ -20,9 +20,9 @@ jobs:
 
       - name: Fetch Memos JSON
         run: |
-          data_url="https://memos.eallion.com/api/v1/memo?creatorId=101&rowStatus=NORMAL"
+          data_url="https://memos.g0f.cn/api/v1/memo?creatorId=101&rowStatus=NORMAL"
           output_file="output.json"
-          curl -s "$data_url" | jq '.[] | {objectID: ("0000000000000000000000" + (.id | tostring)), date: (.createdTs | strftime("%Y-%m-%d")), content, uri: ("https://m.eallion.com/@eallion/statuses/" + ("0000000000000000000000" + (.id | tostring))), title: (.content | rtrimstr("\n") | .[ :20])}' > "$output_file"
+          curl -s "$data_url" | jq '.[] | {objectID: ("0000000000000000000000" + (.id | tostring)), date: (.createdTs | strftime("%Y-%m-%d")), content, uri: ("https://m.g0f.cn/@eallion/statuses/" + ("0000000000000000000000" + (.id | tostring))), title: (.content | rtrimstr("\n") | .[ :20])}' > "$output_file"
           jq -s '.' "$output_file" > memos.json
 
       - name: Algolia uploader

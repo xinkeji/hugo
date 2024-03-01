@@ -260,7 +260,7 @@ other = "我的随手拍。通过 Tag <code>#相册</code> 引用。"
 other ="好物推荐 <span class='emoji'>💄</span> 部分链接可能带有 aff 推广，不喜可删！或直接搜券👉<a href='https://www.kubaicai.com/' target='_blank' rel='noreferrer noopener nofollow'>www.kubaicai.com <i class='fas fa-external-link-alt fa-xs'></i></a>"
 
 [memos_quote]
-other = "共嘀咕了 <span id='memosCount'><i class='fas fa-spinner fa-pulse'></i></span> 条 <a href='https://memos.eallion.com/' target='_blank' rel='noreferrer noopener nofollow'>Memos</a> <span class='emoji'>🎉</span>"
+other = "共嘀咕了 <span id='memosCount'><i class='fas fa-spinner fa-pulse'></i></span> 条 <a href='https://memos.g0f.cn/' target='_blank' rel='noreferrer noopener nofollow'>Memos</a> <span class='emoji'>🎉</span>"
 
 [memos_loadbtn]
 other = "加载更多"

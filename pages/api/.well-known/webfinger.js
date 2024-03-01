@@ -1,20 +1,20 @@
 export default function handler(req, res) {
     res.send(`{
-        "subject": "acct:eallion@eallion.com",
+        "subject": "acct:eallion@g0f.cn",
         "aliases": [
-            "https://m.eallion.com/users/eallion",
-            "https://m.eallion.com/@eallion"
+            "https://m.g0f.cn/users/eallion",
+            "https://m.g0f.cn/@eallion"
         ],
         "links": [
             {
                 "rel": "http://webfinger.net/rel/profile-page",
                 "type": "text/html",
-                "href": "https://m.eallion.com/@eallion"
+                "href": "https://m.g0f.cn/@eallion"
             },
             {
                 "rel": "self",
                 "type": "application/activity+json",
-                "href": "https://m.eallion.com/users/eallion"
+                "href": "https://m.g0f.cn/users/eallion"
             }
         ]
     }`);

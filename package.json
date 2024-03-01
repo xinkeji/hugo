@@ -1,7 +1,7 @@
 {
-  "name": "eallion.com",
+  "name": "g0f.cn",
   "version": "v3.0.4",
-  "description": "eallion.com hugo blog",
+  "description": "g0f.cn hugo blog",
   "private": true,
   "scripts": {
     "hugo": "hugo --cleanDestinationDir --forceSyncStatic --gc --ignoreCache --minify --enableGitInfo --templateMetrics --templateMetricsHints",

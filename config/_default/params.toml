@@ -35,7 +35,7 @@ cacheRemoteImages = false
 [author]
   name = "Charles Chin"
   email = "eallions@gmail.com"
-  link = "https://www.eallion.com/"
+  link = "https://www.g0f.cn/"
   avatar = "/logo.webp"
   #gravatarEmail = ""
 # Header config
@@ -97,11 +97,11 @@ cacheRemoteImages = false
   # ICP info only in China (HTML format is supported)
   # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
   #icp = '<a title="ICP 备案号" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备16031768号-2</a>'
-  # icp = '<i class="fas fa-balance-scale fa-fw"></i> <a title="ICP 备案号" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备16031768号-2</a> | <a title="RSS Feed" href="https://www.eallion.com/index.xml" target="_blank" rel="noopener noreferrer"><i class="fas fa-rss fa-fw"></i></a> <a title="GitHub 源码" href="https://github.com/xinkeji/hugo" target="_blank" rel="noopener noreferrer"><i class="fas fa-code fa-fw"></i></a> <a title="Server Status" href="https://status.eallion.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-database fa-fw"></i></a> <a href="https://myssl.com/seal/detail?domain=eallion.com" title="本站支持SSL安全访问" target="_blank" rel="noopener noreferrer"><i class="fab fa-expeditedssl fa-fw"></i></a> <a href="https://ipw.cn/ipv6webcheck/?site=eallion.com" title="本站支持IPv6访问" target="_blank" rel="noopener noreferrer" class="icon-ipv6">IPv6</a> <a href="https://http3check.net/?host=eallion.com" title="本站支持 QUIC HTTP/3 访问" target="_blank" rel="noopener noreferrer" class="icon-ipv6">HTTP/3</a>'
+  # icp = '<i class="fas fa-balance-scale fa-fw"></i> <a title="ICP 备案号" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备16031768号-2</a> | <a title="RSS Feed" href="https://www.g0f.cn/index.xml" target="_blank" rel="noopener noreferrer"><i class="fas fa-rss fa-fw"></i></a> <a title="GitHub 源码" href="https://github.com/xinkeji/hugo" target="_blank" rel="noopener noreferrer"><i class="fas fa-code fa-fw"></i></a> <a title="Server Status" href="https://status.g0f.cn/" target="_blank" rel="noopener noreferrer"><i class="fas fa-database fa-fw"></i></a> <a href="https://myssl.com/seal/detail?domain=g0f.cn" title="本站支持SSL安全访问" target="_blank" rel="noopener noreferrer"><i class="fab fa-expeditedssl fa-fw"></i></a> <a href="https://ipw.cn/ipv6webcheck/?site=g0f.cn" title="本站支持IPv6访问" target="_blank" rel="noopener noreferrer" class="icon-ipv6">IPv6</a> <a href="https://http3check.net/?host=g0f.cn" title="本站支持 QUIC HTTP/3 访问" target="_blank" rel="noopener noreferrer" class="icon-ipv6">HTTP/3</a>'
   # license info (HTML format is supported)
   # 许可协议信息 (支持 HTML 格式)
   # license= ""
-  #license= "<a title='eallion.com 版权信息' href='https://www.eallion.com/copyright/' target='_blank' rel='noopener noreferrer'>eallion.com</a> All Rights Reserved."
+  #license= "<a title='g0f.cn 版权信息' href='https://www.g0f.cn/copyright/' target='_blank' rel='noopener noreferrer'>g0f.cn</a> All Rights Reserved."
 
 # Section (all posts) page config
 # Section (所有文章) 页面配置
@@ -315,7 +315,7 @@ cacheRemoteImages = false
     # https://www.free-api.com/doc/531
     # http://www.alapi.cn/api/view/72
     # OR self-hosted: https://github.com/yhf7952/QrCodeApi
-    #Weixin= "https://api.eallion.com/qrcode/?size=131&text="
+    #Weixin= "https://api.g0f.cn/qrcode/?size=131&text="
     #Weixin = "https://chart.googleapis.com/chart?chs=400x400&cht=qr&choe=UTF-8&chl="
     Whatsapp = false
     Xing = false
@@ -451,7 +451,7 @@ cacheRemoteImages = false
     [page.comment.giscus]
       enable = true
       # owner/repo
-      dataRepo = "eallion/eallion.com"
+      dataRepo = "eallion/g0f.cn"
       dataRepoId = "MDEwOlJlcG9zaXRvcnkyNjI2Njk1MDg="
       dataCategory = "Giscus"
       dataCategoryId = "DIC_kwDOD6gExM4CS9eF"
@@ -468,7 +468,7 @@ cacheRemoteImages = false
     # artalk comment 评论系统设置 (https://artalk.js.org/guide/frontend/config.html)
     [page.comment.artalk]
       enable = false
-      server = "https://artalk.eallion.com"
+      server = "https://artalk.g0f.cn"
       site = "eallion"
       lite = false
       katex = false
@@ -587,8 +587,8 @@ cacheRemoteImages = false
   [analytics.umami]
     data_website_id = "cbd4a67a-82e8-48ed-9d04-a0e4815466f0"
     src = "/assets/js/69d6ffe.js?v=2.8.0"
-    data_host_url ="https://a.eallion.com"
-    data_domains = "eallion.com,www.eallion.com"
+    data_host_url ="https://a.g0f.cn"
+    data_domains = "g0f.cn,www.g0f.cn"
   # Plausible Analytics
   [analytics.plausible]
     data_domain = ""
