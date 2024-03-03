@@ -231,10 +231,11 @@
                 </div>
             </div>
             <div id="ai-explanation" class="ai-explanation">
-                {{- with $summary -}}
-                    {{ . | safeHTML }}
-                {{- else -}}
-                    AI 接口失联……
+                {{ if $matchingSummary.summary }}
+            {{ $matchingSummary.summary }}
+        {{ else }}
+            AI 摘要接口暂时失联……
+        
                 {{- end -}}
             </div>
         </div>
