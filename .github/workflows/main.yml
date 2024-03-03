@@ -1,14 +1,9 @@
 name: Build Hugo and Deploy
-
 on:
   push:
-    branches:
-      - main
-#  schedule:
-#    - cron: 0 16 * * *
+    paths:
+      - 'content/**'
   workflow_dispatch:
-  repository_dispatch:
-    types: [build-hugo]
 
 jobs:
   build-deploy:
