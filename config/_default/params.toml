@@ -449,7 +449,7 @@ cacheRemoteImages = false
     # giscus comment config (https://giscus.app/)
     # giscus comment 评论系统设置 (https://giscus.app/)
     [page.comment.giscus]
-      enable = flase
+      enable = false
       # owner/repo
       dataRepo = "eallion/g0f.cn"
       dataRepoId = "MDEwOlJlcG9zaXRvcnkyNjI2Njk1MDg="
