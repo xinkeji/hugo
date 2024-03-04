@@ -9,17 +9,16 @@ import env
 # 设置 OpenAI API Key 和 API Base 参数，通过 env.py 传入
 openai.api_key = os.environ.get("CHATGPT_API_KEY")
 openai.api_base = os.environ.get("CHATGPT_API_BASE")
-# api_key = os.getenv('CHATGPT_API_KEY')
-# api_key = os.getenv('CHATGPT_API_BASE')
+
 # 设置最大输入字段，超出会拆分输入，防止超出输入字数限制
 max_length = 1800
 
 # 设置翻译的路径
 dir_to_translate = "content/posts/zh"
 dir_translated = {
-    "en": "/content/posts/en",
-    "es": "/content/posts/es",
-    "ar": "/content/posts/ar"
+    "en": "content/posts/en",
+    "es": "content/posts/es",
+    "ar": "content/posts/ar"
 }
 
 # 不进行翻译的文件列表
