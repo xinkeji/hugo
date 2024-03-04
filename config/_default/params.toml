@@ -84,7 +84,7 @@ cacheRemoteImages = false
   # 托管服务信息 (支持 HTML 格式)
   # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
   # hostedOn = ''
-  hostedOn = '<a title="腾讯云边缘安全加速平台 EdgeOne" href="https://e5n.cc/s/teo" target="_blank" rel="noopener noreffer">EdgeOne</a>'
+  hostedOn = ''
   # whether to show copyright info
   # 是否显示版权信息
   copyright = true
@@ -93,7 +93,7 @@ cacheRemoteImages = false
   author = false
   # site creation time
   # 网站创立年份
-  since = 2006
+  since = 2024
   # ICP info only in China (HTML format is supported)
   # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
   #icp = '<a title="ICP 备案号" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备16031768号-2</a>'
@@ -371,8 +371,8 @@ cacheRemoteImages = false
     # Waline comment config (https://waline.js.org)
     # Waline 评论系统设置 (https://waline.js.org)
     [page.comment.waline]
-      enable = false
-      serverURL = "https://waline-comment-doit.vercel.app/"
+      enable = true
+      serverURL = "https://waline.g0f.cn/"
       pageview = true
       comment = true
       # emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
@@ -449,7 +449,7 @@ cacheRemoteImages = false
     # giscus comment config (https://giscus.app/)
     # giscus comment 评论系统设置 (https://giscus.app/)
     [page.comment.giscus]
-      enable = true
+      enable = flase
       # owner/repo
       dataRepo = "eallion/g0f.cn"
       dataRepoId = "MDEwOlJlcG9zaXRvcnkyNjI2Njk1MDg="
@@ -524,7 +524,7 @@ cacheRemoteImages = false
 [sponsor]
   enable = false
   bio = "数字花园，用爱发电！"
-  link = "https://afdian.net/a/eallion" # 你的赞赏页面的地址
+  link = "https://afdian.net/" # 你的赞赏页面的地址
   # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
 
 # TypeIt config
