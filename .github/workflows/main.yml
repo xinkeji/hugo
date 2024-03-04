@@ -1,8 +1,6 @@
 name: Build Hugo and Deploy
 on:
   push:
-    paths:
-      - 'content/**'
   workflow_dispatch:
 
 jobs:
