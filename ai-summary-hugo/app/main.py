@@ -50,7 +50,7 @@ def main():
 
 def get_posts_path():
     paths = []
-    for root, _, files in os.walk("../content"):
+    for root, _, files in os.walk("../content/posts"):
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(root, file)
