@@ -259,9 +259,9 @@
                                                     <use xlink:href="#arrow-external"></use>
                                                 </svg></a>
                                             </div>
-                                            <div>
+                                                {{ with index .Params.images 0 }}
                                                 <img class="js-lazy-load chr-archive-gm3__card-image"
-                                                    src="{{ $image }}"
+                                                    src="{{ . }}"
                                                     alt="{{- .Title -}}" no-view>
                                             </div>
                                         </li>
