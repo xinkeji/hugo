@@ -3,6 +3,7 @@
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
 
+
     <div class="page home"{{ if ne $posts.enable false | or .Content }} posts{{ end }}>
     <!-- Custom Start -->
 
@@ -154,8 +155,11 @@
                     <div class="chr-fifty-fifty-text-image-gm3__image-wrapper">
                         <div>
                             <a href="{{- .RelPermalink -}}" aria-label="{{- .Title -}}">
-                                <img src="/assets/images/og/{{- $currentSlug | default "eallion" -}}.png" class="chr-fifty-fifty-text-image-gm3__image "
-                                alt="{{- .Title -}}" no-view>
+                                {{ with index .Params.images 0 }}
+                                                <img class="js-lazy-load chr-archive-gm3__card-image"
+                                                    src="{{ . }}"
+                                                    alt="{{- $.Title -}}" no-view>
+                                        {{ end }}
                             </a>
                         </div>
                     </div>
