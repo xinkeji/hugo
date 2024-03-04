@@ -235,6 +235,7 @@
                                 {{- if and (ge $currentIndex $startIndex) (le $currentIndex $endIndex) -}}
                                     {{- $params := .Params | merge .Site.Params.page -}}
                                     {{- $currentSlug := .Params.slug -}}
+                                    {{- $images := .Params.images -}}
 
                                         <li class="chr-archive-gm3__card">
                                             <div class="chr-archive-gm3__card-text">
