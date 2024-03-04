@@ -1,7 +1,7 @@
 ---
 title: "关于"
-images: ["/assets/images/og/about.png"]
-date: "2006-04-14 00:00:00"
+images: ["http://og.g0f.cn/关于"]
+date: "2024-03-4 00:00:00"
 type: "about"
 layout: "about"
 comment: true
