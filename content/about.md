@@ -17,6 +17,9 @@ comment: true
 
 附带关键信息，敬后来者，亦存档
 
+用的国内服务器:https://forest.2heng.xin/
+因为我只是为了说说而说说，所以不在乎数据，当然这个服务器有直接导出数据的接口，我大概用不到
+
 调用/api/v1/accounts/lookup?acct={user}获取ID。
 调用/api/v1/accounts/{user_id}/statuses获取帐户的状态数组。
 
