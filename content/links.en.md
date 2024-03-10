@@ -47,12 +47,12 @@ aliases:
 
 My favorite sites：
 
-- [https://s.eallion.com](https://s.eallion.com)
+- [https://www.g0f.cn/](https://www.g0f.cn/)
 
 My blog info：
 
 > Title：eallion&#39;s blog
-> URL：[https://www.eallion.com](https://www.eallion.com)  
-> Avatar：[https://www.eallion.com/eallion.png](https://www.eallion.com/eallion.png)  
+> URL：[https://www.g0f.cn/](https://www.g0f.cn/)
+> Avatar：https://www.g0f.cn/eallion.png](https://www.g0f.cn/eallion.png)  
 > Gravatar：[https://gravatar.com/avatar/171e4c30959e8c077a6c58b958624b31](https://gravatar.com/avatar/171e4c30959e8c077a6c58b958624b31)
 > Description：_Chance favors the prepared mind_
