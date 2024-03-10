@@ -45,16 +45,12 @@ aliases:
 
 ---
 
-个人网址导航：
-
-- [https://s.eallion.com](https://s.eallion.com)
-
 我的友链信息：
 
 > 标题：果粉圈  
-> URL：[https://www.eallion.com](https://www.eallion.com)  
-> Avatar：[https://www.eallion.com/eallion.png](https://www.eallion.com/eallion.png)  
+> URL：[https://www.g0f.cn/](https://www.g0f.cn/)  
+> Avatar：[https://www.g0f.cn//eallion.png](https://www.g0f.cn/eallion.png)  
 > Gravatar：[https://gravatar.com/avatar/171e4c30959e8c077a6c58b958624b31](https://gravatar.com/avatar/171e4c30959e8c077a6c58b958624b31)  
-> 描述：机会总是垂青于有准备的人  
-> Title：eallion&#39;s blog  
+> 描述：ai
+> Title：果粉圈
 > Description：_Chance favors the prepared mind_
