@@ -3,10 +3,10 @@
 title = "果粉圈"
 # DoIt theme version
 # DoIt 主题版本
-version = "0.4.X"
+version = "lastet"
 # site default theme ("light", "dark", "black", "auto")
 # 网站默认主题 ("light", "dark", "black", "auto")
-defaultTheme = "light"
+defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
 # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
 gitRepo = "https://github.com/xinkeji/hugo"
@@ -33,8 +33,8 @@ cacheRemoteImages = false
 # Author config
 # 作者配置
 [author]
-  name = "Charles Chin"
-  email = "eallions@gmail.com"
+  name = "naiveのai"
+  email = "xinkj521@gmail.com"
   link = "https://www.g0f.cn/"
   avatar = "/logo.webp"
   #gravatarEmail = ""
