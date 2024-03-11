@@ -1,6 +1,7 @@
 name: Build Hugo and Deploy
 on:
   push:
+  branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -26,7 +27,7 @@ jobs:
       - name: Build Hugo
         run: |
           rm themes/DoIt -rf
-          git clone --depth 1 https://github.com/eallion/hugo-theme-doit.git themes/DoIt --single-branch
+          git clone --depth 1 https://github.com/HEIGE-PCloud/DoIt.git themes/DoIt --single-branch
           hugo --cleanDestinationDir --forceSyncStatic --gc --ignoreCache --minify --enableGitInfo --templateMetrics --templateMetricsHints
 
       - name: Ready for Next.js
