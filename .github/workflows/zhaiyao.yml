@@ -52,10 +52,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add data/summary/summary.json
           git commit -a -m "perf(summary): mod or add summary"
-          git rm -r --cached .
-          git reflog expire --expire=now --all
-          git gc --prune=now --aggressive
-
+          
       - name: Push changes
         if: env.SUMMARY_CHANGE == 'true'
         uses: ad-m/github-push-action@master
