@@ -28,9 +28,6 @@ jobs:
 
       - name: Build Hugo
         run: |
-          git rm -r --cached .
-          git reflog expire --expire=now --all
-          git gc --prune=now --aggressive
 
           rm themes/DoIt -rf
           git clone --depth 1 https://github.com/HEIGE-PCloud/DoIt.git themes/DoIt --single-branch
